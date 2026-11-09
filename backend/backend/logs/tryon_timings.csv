@@ -1,0 +1,6 @@
+timestamp,request_id,session,size,fit_category,outcome,attempts,attempt_results,total_s,decode_s,yolo_s,mediapipe_s,garment_s,appearance_s,checks_before_s,gemini_request_s,gemini_image_s,face_restore_s,checks_after_s,finalize_s,other_s
+2026-11-05T15:11:22,bcf40f28,sess_q61,XL,perfect,served,1,ok,36.23,0.04,0.00,0.44,0.03,0.01,0.08,0.01,31.13,1.41,2.17,0.70,0.19
+2026-11-05T15:17:36,1cb4de81,sess_q61,XL,perfect,served,1,ok,76.99,0.06,0.00,0.44,0.03,0.01,0.40,0.01,29.93,43.14,1.99,0.77,0.23
+2026-11-05T15:44:51,35ad8d5e,sess_9km,L,perfect,served,1,ok,40.39,0.06,0.00,0.54,0.03,0.01,0.17,0.01,35.47,0.99,2.16,0.74,0.21
+2026-11-05T15:46:32,057ccaea,sess_9km,L,perfect,served,1,ok,65.20,0.06,0.00,0.43,0.03,0.01,0.43,0.01,30.57,30.66,2.10,0.72,0.20
+2026-11-05T15:47:58,b31067c8,sess_9km,L,perfect,served,1,ok,58.10,0.03,0.00,0.45,8.39,0.01,0.42,0.01,32.17,13.69,1.97,0.75,0.22

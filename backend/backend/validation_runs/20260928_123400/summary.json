@@ -1,0 +1,1756 @@
+{
+  "dry_run": false,
+  "garment": "../frontend/src/assets/dress/male1.png",
+  "people": {
+    "lean": {
+      "profile": {
+        "torso_fullness": 0.931,
+        "torso_shape": "average",
+        "body_type": "Athletic / V-Shape",
+        "chest_proportion": 1.306,
+        "waist_proportion": 0.712,
+        "shoulder_width_ratio": 0.272
+      },
+      "renders": {
+        "M": {
+          "fit_quality": "perfect",
+          "fit_label": "Correct fit",
+          "size_offset": 0,
+          "wont_fit": false,
+          "illustration_only": false,
+          "fit_verified": null,
+          "fit_check": null,
+          "message": null,
+          "silhouette_score": 0.93,
+          "cost_usd": 0.1554,
+          "attempts": [
+            {
+              "size": "M",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "perfect",
+              "offset": 0,
+              "face_lock_source": false,
+              "verify": {
+                "passed": true,
+                "score": 0.93,
+                "shoulder_fidelity": 0.974,
+                "aspect_fidelity": 0.973,
+                "height_fidelity": 0.964,
+                "mask_iou": 0.765,
+                "sh_dev": 0.013,
+                "aspect_dev": 0.013,
+                "gen_confidence": 1.0,
+                "fit_state": "standard",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.89,
+                "midsection_change": -0.041,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.8817,
+                "outer_width": 1.4088,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": true,
+                "checked": false,
+                "problem": null,
+                "other_size": null,
+                "direction": null,
+                "pairs": {}
+              }
+            }
+          ]
+        },
+        "XS": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -2,
+          "wont_fit": true,
+          "illustration_only": false,
+          "fit_verified": true,
+          "fit_check": {
+            "body_check": {
+              "chest": 1.72,
+              "waist": -0.69,
+              "shoulder": 1.57
+            },
+            "limiting_dimension": "shoulder",
+            "reason": "shoulder exceeds size XS by 1.57 size steps (stretch allowance 1.00)",
+            "strain_zones": [
+              "shoulders and upper back"
+            ]
+          },
+          "message": "This size won't fit you. We recommend M.",
+          "silhouette_score": 0.914,
+          "cost_usd": 0.1536,
+          "attempts": [
+            {
+              "size": "XS",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "does_not_fit",
+              "offset": -2,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.914,
+                "shoulder_fidelity": 0.962,
+                "aspect_fidelity": 0.961,
+                "height_fidelity": 0.969,
+                "mask_iou": 0.716,
+                "sh_dev": 0.019,
+                "aspect_dev": 0.019,
+                "gen_confidence": 1.0,
+                "fit_state": "fitted",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.91,
+                "midsection_change": -0.02,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.8965,
+                "outer_width": 1.4383,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": true,
+                "checked": true,
+                "problem": null,
+                "other_size": null,
+                "direction": {
+                  "torso_delta": 0.0148,
+                  "outer_delta": 0.0295,
+                  "passed": true,
+                  "expected": "no wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0295,
+                    "appearance_distance": 0.3818,
+                    "near_identical": false
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "S": {
+          "fit_quality": "snug",
+          "fit_label": "Snug fit",
+          "size_offset": -1,
+          "wont_fit": false,
+          "illustration_only": false,
+          "fit_verified": false,
+          "fit_check": null,
+          "message": null,
+          "silhouette_score": 0.933,
+          "cost_usd": 0.3066,
+          "attempts": [
+            {
+              "size": "S",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "snug",
+              "offset": -1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.886,
+                "shoulder_fidelity": 0.933,
+                "aspect_fidelity": 0.931,
+                "height_fidelity": 0.967,
+                "mask_iou": 0.674,
+                "sh_dev": 0.033,
+                "aspect_dev": 0.035,
+                "gen_confidence": 1.0,
+                "fit_state": "fitted",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.932,
+                "midsection_change": 0.004,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9367,
+                "outer_width": 1.4739,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "sat further off the body than",
+                "other_size": "M",
+                "direction": {
+                  "torso_delta": 0.055,
+                  "outer_delta": 0.0651,
+                  "passed": false,
+                  "expected": "no wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0651,
+                    "appearance_distance": 0.6546,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0402,
+                    "appearance_distance": 0.5835,
+                    "near_identical": false
+                  }
+                }
+              }
+            },
+            {
+              "size": "S",
+              "attempt": 2,
+              "retry_strict": false,
+              "fit_escalation": true,
+              "fit": "snug",
+              "offset": -1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.933,
+                "shoulder_fidelity": 0.992,
+                "aspect_fidelity": 0.992,
+                "height_fidelity": 0.988,
+                "mask_iou": 0.698,
+                "sh_dev": 0.004,
+                "aspect_dev": 0.004,
+                "gen_confidence": 1.0,
+                "fit_state": "fitted",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.951,
+                "midsection_change": 0.024,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9353,
+                "outer_width": 1.4607,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "sat further off the body than",
+                "other_size": "M",
+                "direction": {
+                  "torso_delta": 0.0536,
+                  "outer_delta": 0.0519,
+                  "passed": false,
+                  "expected": "no wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0536,
+                    "appearance_distance": 0.3333,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0388,
+                    "appearance_distance": 0.4,
+                    "near_identical": false
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "L": {
+          "fit_quality": "relaxed",
+          "fit_label": "Relaxed fit",
+          "size_offset": 1,
+          "wont_fit": false,
+          "illustration_only": false,
+          "fit_verified": false,
+          "fit_check": null,
+          "message": null,
+          "silhouette_score": 0.886,
+          "cost_usd": 0.4593,
+          "attempts": [
+            {
+              "size": "L",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "relaxed",
+              "offset": 1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.974,
+                "shoulder_fidelity": 1.0,
+                "aspect_fidelity": 0.994,
+                "height_fidelity": 0.899,
+                "mask_iou": 0.953,
+                "sh_dev": 0.0,
+                "aspect_dev": 0.003,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": false,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.998,
+                "midsection_change": 0.075,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9531,
+                "outer_width": 1.5176,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": true,
+                "checked": true,
+                "problem": null,
+                "other_size": null,
+                "direction": {
+                  "torso_delta": 0.0714,
+                  "outer_delta": 0.1088,
+                  "passed": true,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.1088,
+                    "appearance_distance": 0.7216,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0793,
+                    "appearance_distance": 0.7056,
+                    "near_identical": false
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0569,
+                    "appearance_distance": 0.7445,
+                    "near_identical": false
+                  }
+                }
+              }
+            },
+            {
+              "size": "L",
+              "attempt": 2,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "relaxed",
+              "offset": 1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.953,
+                "shoulder_fidelity": 0.99,
+                "aspect_fidelity": 0.99,
+                "height_fidelity": 0.941,
+                "mask_iou": 0.841,
+                "sh_dev": 0.005,
+                "aspect_dev": 0.005,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.898,
+                "midsection_change": -0.032,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9011,
+                "outer_width": 1.4527,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "looked nearly identical to",
+                "other_size": "XS",
+                "direction": {
+                  "torso_delta": 0.0194,
+                  "outer_delta": 0.0439,
+                  "passed": true,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0439,
+                    "appearance_distance": 0.3771,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0144,
+                    "appearance_distance": 0.4045,
+                    "near_identical": true
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0342,
+                    "appearance_distance": 0.5002,
+                    "near_identical": false
+                  }
+                }
+              }
+            },
+            {
+              "size": "L",
+              "attempt": 3,
+              "retry_strict": false,
+              "fit_escalation": true,
+              "fit": "relaxed",
+              "offset": 1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.886,
+                "shoulder_fidelity": 0.873,
+                "aspect_fidelity": 0.865,
+                "height_fidelity": 0.985,
+                "mask_iou": 0.864,
+                "sh_dev": 0.063,
+                "aspect_dev": 0.068,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.951,
+                "midsection_change": 0.024,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9386,
+                "outer_width": 1.449,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "looked nearly identical to",
+                "other_size": "S",
+                "direction": {
+                  "torso_delta": 0.0569,
+                  "outer_delta": 0.0402,
+                  "passed": true,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0569,
+                    "appearance_distance": 0.6212,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0421,
+                    "appearance_distance": 0.654,
+                    "near_identical": false
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0117,
+                    "appearance_distance": 0.7045,
+                    "near_identical": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "XL": {
+          "fit_quality": "loose",
+          "fit_label": "Loose fit",
+          "size_offset": 2,
+          "wont_fit": false,
+          "illustration_only": false,
+          "fit_verified": true,
+          "fit_check": null,
+          "message": null,
+          "silhouette_score": 0.911,
+          "cost_usd": 0.1531,
+          "attempts": [
+            {
+              "size": "XL",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "loose",
+              "offset": 2,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.911,
+                "shoulder_fidelity": 0.921,
+                "aspect_fidelity": 0.918,
+                "height_fidelity": 0.968,
+                "mask_iou": 0.841,
+                "sh_dev": 0.04,
+                "aspect_dev": 0.041,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.906,
+                "midsection_change": -0.024,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.908,
+                "outer_width": 1.488,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": true,
+                "checked": true,
+                "problem": null,
+                "other_size": null,
+                "direction": {
+                  "torso_delta": 0.0263,
+                  "outer_delta": 0.0792,
+                  "passed": true,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0792,
+                    "appearance_distance": 0.7269,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0497,
+                    "appearance_distance": 0.7193,
+                    "near_identical": false
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0273,
+                    "appearance_distance": 0.7502,
+                    "near_identical": false
+                  },
+                  "L": {
+                    "silhouette_distance": 0.039,
+                    "appearance_distance": 0.2378,
+                    "near_identical": false
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "XXL": {
+          "fit_quality": "oversized",
+          "fit_label": "Very oversized",
+          "size_offset": 3,
+          "wont_fit": false,
+          "illustration_only": false,
+          "fit_verified": false,
+          "fit_check": null,
+          "message": null,
+          "silhouette_score": 0.882,
+          "cost_usd": 0.4597,
+          "attempts": [
+            {
+              "size": "XXL",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "oversized",
+              "offset": 3,
+              "face_lock_source": true,
+              "verify": {
+                "passed": false,
+                "score": 0.986,
+                "shoulder_fidelity": 1.0,
+                "aspect_fidelity": 1.0,
+                "height_fidelity": 0.98,
+                "mask_iou": 0.943,
+                "sh_dev": 0.0,
+                "aspect_dev": 0.0,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": false,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.84,
+                "midsection_change": -0.095,
+                "midsection_preserved": false
+              },
+              "garment": {
+                "torso_width": 0.8426,
+                "outer_width": 1.5005,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": true,
+                "checked": true,
+                "problem": null,
+                "other_size": null,
+                "direction": {
+                  "torso_delta": -0.0391,
+                  "outer_delta": 0.0917,
+                  "passed": true,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0917,
+                    "appearance_distance": 0.7271,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0622,
+                    "appearance_distance": 0.7285,
+                    "near_identical": false
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0927,
+                    "appearance_distance": 0.7644,
+                    "near_identical": false
+                  },
+                  "L": {
+                    "silhouette_distance": 0.096,
+                    "appearance_distance": 0.4859,
+                    "near_identical": false
+                  },
+                  "XL": {
+                    "silhouette_distance": 0.0654,
+                    "appearance_distance": 0.4815,
+                    "near_identical": false
+                  }
+                }
+              }
+            },
+            {
+              "size": "XXL",
+              "attempt": 2,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "oversized",
+              "offset": 3,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.882,
+                "shoulder_fidelity": 0.875,
+                "aspect_fidelity": 0.867,
+                "height_fidelity": 0.958,
+                "mask_iou": 0.863,
+                "sh_dev": 0.063,
+                "aspect_dev": 0.067,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.897,
+                "midsection_change": -0.034,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.8966,
+                "outer_width": 1.4432,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "looked nearly identical to",
+                "other_size": "XS",
+                "direction": {
+                  "torso_delta": 0.0149,
+                  "outer_delta": 0.0344,
+                  "passed": true,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0344,
+                    "appearance_distance": 0.5939,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0049,
+                    "appearance_distance": 0.6437,
+                    "near_identical": true
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0387,
+                    "appearance_distance": 0.6928,
+                    "near_identical": false
+                  },
+                  "L": {
+                    "silhouette_distance": 0.042,
+                    "appearance_distance": 0.2304,
+                    "near_identical": false
+                  },
+                  "XL": {
+                    "silhouette_distance": 0.0448,
+                    "appearance_distance": 0.3432,
+                    "near_identical": false
+                  }
+                }
+              }
+            },
+            {
+              "size": "XXL",
+              "attempt": 3,
+              "retry_strict": false,
+              "fit_escalation": true,
+              "fit": "oversized",
+              "offset": 3,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.908,
+                "shoulder_fidelity": 0.916,
+                "aspect_fidelity": 0.912,
+                "height_fidelity": 0.942,
+                "mask_iou": 0.865,
+                "sh_dev": 0.042,
+                "aspect_dev": 0.044,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 0.928,
+                "midsection_fullness_render": 0.872,
+                "midsection_change": -0.061,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.8763,
+                "outer_width": 1.4053,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "was not wider than",
+                "other_size": "M",
+                "direction": {
+                  "torso_delta": -0.0054,
+                  "outer_delta": -0.0035,
+                  "passed": false,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "M": {
+                    "silhouette_distance": 0.0054,
+                    "appearance_distance": 0.5308,
+                    "near_identical": true
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.033,
+                    "appearance_distance": 0.5843,
+                    "near_identical": false
+                  },
+                  "S": {
+                    "silhouette_distance": 0.059,
+                    "appearance_distance": 0.662,
+                    "near_identical": false
+                  },
+                  "L": {
+                    "silhouette_distance": 0.0623,
+                    "appearance_distance": 0.2851,
+                    "near_identical": false
+                  },
+                  "XL": {
+                    "silhouette_distance": 0.0827,
+                    "appearance_distance": 0.419,
+                    "near_identical": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "size_fits": {
+        "XS": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -2
+        },
+        "S": {
+          "fit_quality": "snug",
+          "fit_label": "Snug fit",
+          "size_offset": -1
+        },
+        "M": {
+          "fit_quality": "perfect",
+          "fit_label": "Correct fit",
+          "size_offset": 0
+        },
+        "L": {
+          "fit_quality": "relaxed",
+          "fit_label": "Relaxed fit",
+          "size_offset": 1
+        },
+        "XL": {
+          "fit_quality": "loose",
+          "fit_label": "Loose fit",
+          "size_offset": 2
+        },
+        "XXL": {
+          "fit_quality": "oversized",
+          "fit_label": "Very oversized",
+          "size_offset": 3
+        }
+      },
+      "recommended_size": "M",
+      "cross_size": {
+        "sizes": {
+          "XS": {
+            "torso_width": 0.8965,
+            "outer_width": 1.4383,
+            "torso_delta": 0.0148,
+            "outer_delta": 0.0295,
+            "direction_ok": true,
+            "face": "pixel 0.904 ssim 0.554 (DIFFERENT)"
+          },
+          "S": {
+            "torso_width": 0.9353,
+            "outer_width": 1.4607,
+            "torso_delta": 0.0536,
+            "outer_delta": 0.0519,
+            "direction_ok": false,
+            "face": "pixel 0.914 ssim 0.555 (DIFFERENT)"
+          },
+          "M": {
+            "torso_width": 0.8817,
+            "outer_width": 1.4088
+          },
+          "L": {
+            "torso_width": 0.94,
+            "outer_width": 1.4478,
+            "torso_delta": 0.0583,
+            "outer_delta": 0.039,
+            "direction_ok": true,
+            "face": "pixel 0.980 ssim 0.873 (DIFFERENT)"
+          },
+          "XL": {
+            "torso_width": 0.91,
+            "outer_width": 1.4865,
+            "torso_delta": 0.0283,
+            "outer_delta": 0.0777,
+            "direction_ok": true,
+            "face": "pixel 0.983 ssim 0.946 (identical)"
+          },
+          "XXL": {
+            "torso_width": 0.8943,
+            "outer_width": 1.4429,
+            "torso_delta": 0.0126,
+            "outer_delta": 0.0341,
+            "direction_ok": true,
+            "face": "pixel 0.980 ssim 0.869 (DIFFERENT)"
+          }
+        },
+        "pairs": {
+          "XS-S": {
+            "silhouette_distance": 0.0388,
+            "appearance_distance": 0.4,
+            "near_identical": false
+          },
+          "XS-M": {
+            "silhouette_distance": 0.0295,
+            "appearance_distance": 0.3818,
+            "near_identical": false
+          },
+          "XS-L": {
+            "silhouette_distance": 0.0435,
+            "appearance_distance": 0.6539,
+            "near_identical": false
+          },
+          "XS-XL": {
+            "silhouette_distance": 0.0482,
+            "appearance_distance": 0.7172,
+            "near_identical": false
+          },
+          "XS-XXL": {
+            "silhouette_distance": 0.0046,
+            "appearance_distance": 0.643,
+            "near_identical": true
+          },
+          "S-M": {
+            "silhouette_distance": 0.0536,
+            "appearance_distance": 0.3333,
+            "near_identical": false
+          },
+          "S-L": {
+            "silhouette_distance": 0.0129,
+            "appearance_distance": 0.7048,
+            "near_identical": true
+          },
+          "S-XL": {
+            "silhouette_distance": 0.0258,
+            "appearance_distance": 0.7476,
+            "near_identical": false
+          },
+          "S-XXL": {
+            "silhouette_distance": 0.041,
+            "appearance_distance": 0.6921,
+            "near_identical": false
+          },
+          "M-L": {
+            "silhouette_distance": 0.0583,
+            "appearance_distance": 0.6205,
+            "near_identical": false
+          },
+          "M-XL": {
+            "silhouette_distance": 0.0777,
+            "appearance_distance": 0.7224,
+            "near_identical": false
+          },
+          "M-XXL": {
+            "silhouette_distance": 0.0341,
+            "appearance_distance": 0.5931,
+            "near_identical": false
+          },
+          "L-XL": {
+            "silhouette_distance": 0.0387,
+            "appearance_distance": 0.2322,
+            "near_identical": false
+          },
+          "L-XXL": {
+            "silhouette_distance": 0.0457,
+            "appearance_distance": 0.2327,
+            "near_identical": false
+          },
+          "XL-XXL": {
+            "silhouette_distance": 0.0436,
+            "appearance_distance": 0.3359,
+            "near_identical": false
+          }
+        },
+        "body_consistency": {
+          "max_body_drift": 0.1172,
+          "body_constant": false
+        },
+        "near_identical": [
+          "XS-XXL",
+          "S-L"
+        ]
+      }
+    },
+    "fuller": {
+      "profile": {
+        "torso_fullness": 1.026,
+        "torso_shape": "full",
+        "body_type": "Inverted Triangle",
+        "chest_proportion": 1.734,
+        "waist_proportion": 0.963,
+        "shoulder_width_ratio": 0.361
+      },
+      "renders": {
+        "XL": {
+          "fit_quality": "perfect",
+          "fit_label": "Correct fit",
+          "size_offset": 0,
+          "wont_fit": false,
+          "illustration_only": false,
+          "fit_verified": null,
+          "fit_check": null,
+          "message": null,
+          "silhouette_score": 0.927,
+          "cost_usd": 0.1549,
+          "attempts": [
+            {
+              "size": "XL",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "perfect",
+              "offset": 0,
+              "face_lock_source": false,
+              "verify": {
+                "passed": true,
+                "score": 0.927,
+                "shoulder_fidelity": 0.96,
+                "aspect_fidelity": 0.959,
+                "height_fidelity": 0.979,
+                "mask_iou": 0.784,
+                "sh_dev": 0.02,
+                "aspect_dev": 0.02,
+                "gen_confidence": 1.0,
+                "fit_state": "standard",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 1.065,
+                "midsection_fullness_render": 0.999,
+                "midsection_change": -0.062,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9715,
+                "outer_width": 1.5694,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": true,
+                "checked": false,
+                "problem": null,
+                "other_size": null,
+                "direction": null,
+                "pairs": {}
+              }
+            }
+          ]
+        },
+        "XS": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -4,
+          "wont_fit": true,
+          "illustration_only": false,
+          "fit_verified": true,
+          "fit_check": {
+            "body_check": {
+              "chest": 5.28,
+              "waist": 2.9,
+              "shoulder": 4.53
+            },
+            "limiting_dimension": "chest",
+            "reason": "chest exceeds size XS by 5.28 size steps (stretch allowance 1.25)",
+            "strain_zones": [
+              "stomach",
+              "chest and upper arms"
+            ]
+          },
+          "message": "This size won't fit you. We recommend XL.",
+          "silhouette_score": 0.94,
+          "cost_usd": 0.1534,
+          "attempts": [
+            {
+              "size": "XS",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "does_not_fit",
+              "offset": -4,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.94,
+                "shoulder_fidelity": 1.0,
+                "aspect_fidelity": 0.965,
+                "height_fidelity": 0.988,
+                "mask_iou": 0.764,
+                "sh_dev": 0.0,
+                "aspect_dev": 0.018,
+                "gen_confidence": 1.0,
+                "fit_state": "fitted",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 1.065,
+                "midsection_fullness_render": 1.016,
+                "midsection_change": -0.046,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9758,
+                "outer_width": 1.5823,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": true,
+                "checked": true,
+                "problem": null,
+                "other_size": null,
+                "direction": {
+                  "torso_delta": 0.0043,
+                  "outer_delta": 0.0129,
+                  "passed": true,
+                  "expected": "no wider than the recommended size"
+                },
+                "pairs": {
+                  "XL": {
+                    "silhouette_distance": 0.0129,
+                    "appearance_distance": 0.3444,
+                    "near_identical": false
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "S": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -3,
+          "wont_fit": true,
+          "illustration_only": false,
+          "fit_verified": true,
+          "fit_check": {
+            "body_check": {
+              "chest": 3.95,
+              "waist": 1.9,
+              "shoulder": 3.53
+            },
+            "limiting_dimension": "chest",
+            "reason": "chest exceeds size S by 3.95 size steps (stretch allowance 1.25)",
+            "strain_zones": [
+              "stomach",
+              "chest and upper arms"
+            ]
+          },
+          "message": "This size won't fit you. We recommend XL.",
+          "silhouette_score": 0.94,
+          "cost_usd": 0.1534,
+          "attempts": [
+            {
+              "size": "S",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "does_not_fit",
+              "offset": -3,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.94,
+                "shoulder_fidelity": 1.0,
+                "aspect_fidelity": 0.955,
+                "height_fidelity": 0.991,
+                "mask_iou": 0.775,
+                "sh_dev": 0.0,
+                "aspect_dev": 0.023,
+                "gen_confidence": 1.0,
+                "fit_state": "fitted",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 1.065,
+                "midsection_fullness_render": 1.024,
+                "midsection_change": -0.039,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9899,
+                "outer_width": 1.5532,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": true,
+                "checked": true,
+                "problem": null,
+                "other_size": null,
+                "direction": {
+                  "torso_delta": 0.0184,
+                  "outer_delta": -0.0162,
+                  "passed": true,
+                  "expected": "no wider than the recommended size"
+                },
+                "pairs": {
+                  "XL": {
+                    "silhouette_distance": 0.0184,
+                    "appearance_distance": 0.393,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0291,
+                    "appearance_distance": 0.4157,
+                    "near_identical": null
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "M": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -2,
+          "wont_fit": true,
+          "illustration_only": true,
+          "fit_verified": null,
+          "fit_check": {
+            "body_check": {
+              "chest": 3.84,
+              "waist": 0.9,
+              "shoulder": 1.9
+            },
+            "limiting_dimension": "chest",
+            "reason": "chest exceeds size M by 3.84 size steps (stretch allowance 1.25)",
+            "strain_zones": [
+              "stomach",
+              "chest and upper arms"
+            ],
+            "render_rejected": "the garment does not look smaller than the recommended size"
+          },
+          "message": "This size won't fit you. We recommend XL.",
+          "silhouette_score": null,
+          "cost_usd": 0.1534,
+          "attempts": [
+            {
+              "size": "M",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "does_not_fit",
+              "offset": -2,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.923,
+                "shoulder_fidelity": 1.0,
+                "aspect_fidelity": 0.947,
+                "height_fidelity": 0.985,
+                "mask_iou": 0.705,
+                "sh_dev": 0.0,
+                "aspect_dev": 0.027,
+                "gen_confidence": 0.99,
+                "fit_state": "fitted",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 1.065,
+                "midsection_fullness_render": 1.058,
+                "midsection_change": -0.007,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 1.0134,
+                "outer_width": 1.6133,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "sat further off the body than",
+                "other_size": "XL",
+                "direction": {
+                  "torso_delta": 0.0419,
+                  "outer_delta": 0.0439,
+                  "passed": false,
+                  "expected": "no wider than the recommended size"
+                },
+                "pairs": {
+                  "XL": {
+                    "silhouette_distance": 0.0439,
+                    "appearance_distance": 0.3351,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0376,
+                    "appearance_distance": 0.3546,
+                    "near_identical": null
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0601,
+                    "appearance_distance": 0.5391,
+                    "near_identical": null
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "L": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -1,
+          "wont_fit": true,
+          "illustration_only": true,
+          "fit_verified": null,
+          "fit_check": {
+            "body_check": {
+              "chest": 2.84,
+              "waist": -0.09,
+              "shoulder": 0.9
+            },
+            "limiting_dimension": "chest",
+            "reason": "chest exceeds size L by 2.84 size steps (stretch allowance 1.25)",
+            "strain_zones": [
+              "stomach",
+              "chest and upper arms"
+            ],
+            "render_rejected": "the garment does not look smaller than the recommended size"
+          },
+          "message": "This size won't fit you. We recommend XL.",
+          "silhouette_score": null,
+          "cost_usd": 0.1532,
+          "attempts": [
+            {
+              "size": "L",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "does_not_fit",
+              "offset": -1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.939,
+                "shoulder_fidelity": 1.0,
+                "aspect_fidelity": 0.994,
+                "height_fidelity": 1.0,
+                "mask_iou": 0.707,
+                "sh_dev": 0.0,
+                "aspect_dev": 0.003,
+                "gen_confidence": 0.99,
+                "fit_state": "fitted",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 1.065,
+                "midsection_fullness_render": 1.03,
+                "midsection_change": -0.033,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 1.0143,
+                "outer_width": 1.646,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "sat further off the body than",
+                "other_size": "XL",
+                "direction": {
+                  "torso_delta": 0.0428,
+                  "outer_delta": 0.0766,
+                  "passed": false,
+                  "expected": "no wider than the recommended size"
+                },
+                "pairs": {
+                  "XL": {
+                    "silhouette_distance": 0.0766,
+                    "appearance_distance": 0.3916,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0637,
+                    "appearance_distance": 0.3374,
+                    "near_identical": null
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0928,
+                    "appearance_distance": 0.5224,
+                    "near_identical": null
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "XXL": {
+          "fit_quality": "relaxed",
+          "fit_label": "Relaxed fit",
+          "size_offset": 1,
+          "wont_fit": false,
+          "illustration_only": false,
+          "fit_verified": false,
+          "fit_check": null,
+          "message": null,
+          "silhouette_score": 0.98,
+          "cost_usd": 0.4596,
+          "attempts": [
+            {
+              "size": "XXL",
+              "attempt": 1,
+              "retry_strict": false,
+              "fit_escalation": false,
+              "fit": "relaxed",
+              "offset": 1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": false,
+                "score": 0.965,
+                "shoulder_fidelity": 0.975,
+                "aspect_fidelity": 0.975,
+                "height_fidelity": 0.977,
+                "mask_iou": 0.926,
+                "sh_dev": 0.013,
+                "aspect_dev": 0.013,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": false,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 1.065,
+                "midsection_fullness_render": 0.948,
+                "midsection_change": -0.111,
+                "midsection_preserved": false
+              },
+              "garment": {
+                "torso_width": 0.9227,
+                "outer_width": 1.5328,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "was not wider than",
+                "other_size": "XL",
+                "direction": {
+                  "torso_delta": -0.0488,
+                  "outer_delta": -0.0366,
+                  "passed": false,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "XL": {
+                    "silhouette_distance": 0.0488,
+                    "appearance_distance": 0.229,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0531,
+                    "appearance_distance": 0.4292,
+                    "near_identical": false
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0672,
+                    "appearance_distance": 0.455,
+                    "near_identical": false
+                  }
+                }
+              }
+            },
+            {
+              "size": "XXL",
+              "attempt": 2,
+              "retry_strict": true,
+              "fit_escalation": false,
+              "fit": "relaxed",
+              "offset": 1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": true,
+                "score": 0.98,
+                "shoulder_fidelity": 1.0,
+                "aspect_fidelity": 1.0,
+                "height_fidelity": 0.998,
+                "mask_iou": 0.899,
+                "sh_dev": 0.0,
+                "aspect_dev": 0.0,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 1.065,
+                "midsection_fullness_render": 1.007,
+                "midsection_change": -0.055,
+                "midsection_preserved": true
+              },
+              "garment": {
+                "torso_width": 0.9739,
+                "outer_width": 1.5636,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "was not wider than",
+                "other_size": "XL",
+                "direction": {
+                  "torso_delta": 0.0024,
+                  "outer_delta": -0.0058,
+                  "passed": false,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "XL": {
+                    "silhouette_distance": 0.0058,
+                    "appearance_distance": 0.1855,
+                    "near_identical": true
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0187,
+                    "appearance_distance": 0.3551,
+                    "near_identical": false
+                  },
+                  "S": {
+                    "silhouette_distance": 0.016,
+                    "appearance_distance": 0.4636,
+                    "near_identical": false
+                  }
+                }
+              }
+            },
+            {
+              "size": "XXL",
+              "attempt": 3,
+              "retry_strict": true,
+              "fit_escalation": true,
+              "fit": "relaxed",
+              "offset": 1,
+              "face_lock_source": true,
+              "verify": {
+                "passed": false,
+                "score": 0.972,
+                "shoulder_fidelity": 1.0,
+                "aspect_fidelity": 1.0,
+                "height_fidelity": 0.975,
+                "mask_iou": 0.88,
+                "sh_dev": 0.0,
+                "aspect_dev": 0.0,
+                "gen_confidence": 1.0,
+                "fit_state": "relaxed",
+                "face_identity_preserved": true,
+                "body_proportions_preserved": true,
+                "garment_color_preserved": true,
+                "arms_hands_natural": true,
+                "background_clean": true,
+                "photorealistic_quality": true,
+                "midsection_fullness_capture": 1.065,
+                "midsection_fullness_render": 0.951,
+                "midsection_change": -0.108,
+                "midsection_preserved": false
+              },
+              "garment": {
+                "torso_width": 0.9243,
+                "outer_width": 1.5776,
+                "torso_rows": 20
+              },
+              "fit_eval": {
+                "passed": false,
+                "checked": true,
+                "problem": "was not wider than",
+                "other_size": "XL",
+                "direction": {
+                  "torso_delta": -0.0472,
+                  "outer_delta": 0.0082,
+                  "passed": false,
+                  "expected": "wider than the recommended size"
+                },
+                "pairs": {
+                  "XL": {
+                    "silhouette_distance": 0.0472,
+                    "appearance_distance": 0.3077,
+                    "near_identical": false
+                  },
+                  "XS": {
+                    "silhouette_distance": 0.0515,
+                    "appearance_distance": 0.4878,
+                    "near_identical": false
+                  },
+                  "S": {
+                    "silhouette_distance": 0.0656,
+                    "appearance_distance": 0.5641,
+                    "near_identical": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "size_fits": {
+        "XS": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -4
+        },
+        "S": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -3
+        },
+        "M": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -2
+        },
+        "L": {
+          "fit_quality": "does_not_fit",
+          "fit_label": "Won't fit",
+          "size_offset": -1
+        },
+        "XL": {
+          "fit_quality": "perfect",
+          "fit_label": "Correct fit",
+          "size_offset": 0
+        },
+        "XXL": {
+          "fit_quality": "relaxed",
+          "fit_label": "Relaxed fit",
+          "size_offset": 1
+        }
+      },
+      "recommended_size": "XL",
+      "cross_size": {
+        "sizes": {
+          "XS": {
+            "torso_width": 0.9933,
+            "outer_width": 1.5955,
+            "torso_delta": 0.0218,
+            "outer_delta": 0.0261,
+            "direction_ok": false,
+            "face": "pixel 0.992 ssim 0.966 (identical)"
+          },
+          "S": {
+            "torso_width": 0.9979,
+            "outer_width": 1.5601,
+            "torso_delta": 0.0264,
+            "outer_delta": -0.0093,
+            "direction_ok": false,
+            "face": "pixel 0.987 ssim 0.948 (identical)"
+          },
+          "M": {
+            "torso_width": null,
+            "outer_width": null
+          },
+          "L": {
+            "torso_width": null,
+            "outer_width": null
+          },
+          "XL": {
+            "torso_width": 0.9715,
+            "outer_width": 1.5694
+          },
+          "XXL": {
+            "torso_width": 0.9544,
+            "outer_width": 1.5664,
+            "torso_delta": -0.0171,
+            "outer_delta": -0.003,
+            "direction_ok": false,
+            "face": "pixel 0.985 ssim 0.893 (DIFFERENT)"
+          }
+        },
+        "pairs": {
+          "XS-S": {
+            "silhouette_distance": 0.0354,
+            "appearance_distance": 0.4232,
+            "near_identical": null
+          },
+          "XS-XL": {
+            "silhouette_distance": 0.0261,
+            "appearance_distance": 0.3472,
+            "near_identical": false
+          },
+          "XS-XXL": {
+            "silhouette_distance": 0.0389,
+            "appearance_distance": 0.3612,
+            "near_identical": false
+          },
+          "S-XL": {
+            "silhouette_distance": 0.0264,
+            "appearance_distance": 0.3966,
+            "near_identical": false
+          },
+          "S-XXL": {
+            "silhouette_distance": 0.0435,
+            "appearance_distance": 0.4664,
+            "near_identical": false
+          },
+          "XL-XXL": {
+            "silhouette_distance": 0.0171,
+            "appearance_distance": 0.1749,
+            "near_identical": false
+          }
+        },
+        "body_consistency": {
+          "max_body_drift": 0.0484,
+          "body_constant": true
+        },
+        "near_identical": []
+      }
+    }
+  },
+  "stomach_test": {
+    "lean": {
+      "fullness": 0.931,
+      "shape": "average",
+      "worst_unchanged_drop": -0.053,
+      "cv": 0.036,
+      "flatten_change": {
+        "10%": 0.017,
+        "15%": -0.023,
+        "20%": -0.056,
+        "25%": 0.039
+      }
+    },
+    "fuller": {
+      "fullness": 1.026,
+      "shape": "full",
+      "worst_unchanged_drop": -0.164,
+      "cv": 0.073,
+      "flatten_change": {
+        "10%": -0.042,
+        "15%": -0.015,
+        "20%": -0.006,
+        "25%": 0.117
+      }
+    }
+  },
+  "gemini_calls": 21,
+  "total_cost_usd": 2.9156
+}

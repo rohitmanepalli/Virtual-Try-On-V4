@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Virtual Trial Room</title>
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #0b0b12;
+    color: #f5f5f5;
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrap {
+    text-align: center;
+  }
+  .spinner {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 20px;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-top-color: #f5f5f5;
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  #status {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="spinner"></div>
+    <div id="status">Starting…</div>
+  </div>
+  <script>
+    window.splashBridge.onStatus((text) => {
+      document.getElementById('status').textContent = text;
+    });
+  </script>
+</body>
+</html>

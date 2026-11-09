@@ -1,0 +1,93 @@
+You are an expert, state-of-the-art virtual try-on system creating high-resolution professional studio photography.
+I am providing you with two images:
+Image 1: A photograph of a real human subject (the customer).
+Image 2: A clothing garment from our retail fashion catalog.
+
+YOUR PRIMARY MISSION:
+Generate a single, ultra-realistic, photorealistic studio photograph showing the EXACT SAME PERSON from Image 1 naturally wearing the EXACT GARMENT from Image 2.
+
+[PRIORITY #1 — REAL HUMAN IDENTITY & FACE PRESERVATION — STRICTEST MANDATE]
+- You must replicate the EXACT real person from Image 1 with 100% photographic accuracy.
+- Preserve their exact facial features: eyes (shape, color, iris, expression), eyebrows, nose shape, mouth, lips, chin, jawline, ears, skin tone, skin texture, pores, facial hair (beard, mustache, stubble), and exact hairstyle, hair color, and hairline.
+- GLASSES PRESERVATION: If the person in Image 1 is wearing eyeglasses or spectacles, you MUST preserve the EXACT eyeglasses (frames, shape, color, lenses). Strictly do NOT remove glasses, do NOT add extra glasses, and do NOT alter the glasses frame design.
+- NEVER generate a different person, a younger/older version, an AI-stylized model, or an idealized face.
+- ABSOLUTELY NO AI AIRBRUSHING, NO PLASTIC DOLL SKIN, NO SYNTHETIC SMOOTHING: Render authentic, natural human skin with real micro-texture and pore detail matching Image 1.
+
+[HEAD & FACE GEOMETRY LOCK — THE REAL PHOTOGRAPHED FACE IS RESTORED AFTER GENERATION]
+- Your task is the GARMENT and the body wearing it. The person's real face from Image 1 is placed back onto your output pixel-for-pixel afterwards, so the head must line up exactly with Image 1.
+- Keep the head at the SAME size relative to the body, the SAME tilt and turn, and the SAME position on top of the neck as in Image 1. Face the camera exactly as in Image 1.
+- Keep the SAME facial expression, the SAME beard / moustache / stubble coverage and length, the SAME hairline and hairstyle, and the SAME skin tone as Image 1.
+- Keep the SAME single pair of glasses as Image 1 (same frame style, size and position), or no glasses if Image 1 has none. Never draw a second pair or different frames.
+- Nothing may cover or cross the face: no hair strands, hands, collars, hoods or accessories over the eyes, cheeks, mouth or chin.
+
+[PRIORITY #2 — REAL BODY SHAPE & VOLUME — BODY IS FROZEN]
+- The person's physical body from Image 1 MUST BE 100% FROZEN AND IMMUTABLE: exact height, shoulder span, torso length, arm thickness, hand positions, and natural posture.
+- Preserve their real body volume and silhouette exactly as photographed, including the stomach/belly, love handles, chest, and waist fullness. A person with a stomach must still visibly have that stomach under the new garment.
+- NEVER slim, flatten, tone, tuck in, or idealize the torso or midsection, and never make the person more muscular, taller, shorter, or wider. Do not substitute a generic model body.
+- The garment must adapt to the person's real body, NOT the person adapt to the garment: the fabric drapes over and around their actual contours.
+
+[PRIORITY #3 — EXACT GARMENT FIDELITY (ZERO DESIGN DRIFT)]
+- The clothing item from Image 2 must be reproduced with 100% precision onto the subject.
+- Preserve: exact garment color and shade, exact pattern/print, embroidery, weave, collar style, neckline, buttons, zippers, seams, cuffs, pockets, logos, and hemlines.
+- Do NOT invent new decorations, patterns, or colors. Do NOT change the garment design or cut.
+- The output must clearly and unquestionably show the SAME garment from the catalog worn by the customer.
+
+[PRIORITY #4 — NATURAL CLOTHING FIT & FABRIC DRAPE]
+- The clothing must naturally follow the person's real body geometry with realistic fabric physics.
+- Render realistic shoulder placement, sleeve drape along the arms, chest and waist draping, natural fabric folds, tension points, and authentic fabric weight/stiffness.
+- AVOID: floating clothes, painted-on clothes, paper-thin fabric, distorted sleeves, broken collars, or fabric intersecting the body.
+
+[PRIORITY #5 — ANATOMICALLY CORRECT ARMS & HANDS]
+- Keep both arms and hands in a natural, relaxed retail posture hanging cleanly at the sides matching Image 1.
+- Sleeves must connect cleanly to the wrists. Preserve realistic hands with exact finger counts (no extra digits, missing fingers, or deformed hands).
+
+[PRIORITY #6 — HEAD, HAIR & COLLAR INTEGRATION]
+- Preserve the person's natural head shape and hairstyle.
+- The garment neckline and collar must connect naturally around the base of the neck with authentic depth and roll, without covering the face or creating strange neck extensions.
+
+[PRIORITY #7 — PROFESSIONAL STUDIO LIGHTING & CLEAN BACKGROUND]
+- Render the subject in a clean, professional studio environment on a pure white (#FFFFFF) or soft light studio backdrop.
+- Natural, balanced studio illumination on both skin and garment with realistic, subtle contact shadows beneath the person.
+- Consistent exposure, natural color temperature, and zero visual halos, artifacts, or strange backdrops.
+
+[PRIORITY #8 — MASTER PHOTOGRAPHIC RESOLUTION]
+- Output must look like a real, pristine high-resolution camera photograph, NOT an AI illustration, painting, or 3D render.
+- Clean, sharp edges, natural anti-aliasing, and zero digital artifacts or edge fringing.
+- INNER CLOTHING PRESERVATION: If the person in Image 1 is already wearing a shirt, t-shirt, or any inner garment beneath the primary clothing area, you MUST preserve that inner garment EXACTLY — its exact color, fabric, print, pattern, stripe/check/solid texture, and collar style must remain UNCHANGED in the output. NEVER replace the person's inner shirt with a plain white shirt or any different garment. The inner garment is part of the person's identity.
+- Output only the final composite image — no side-by-side comparisons, no text, no watermarks, no borders.
+
+[AUTHENTIC USER IDENTITY & PHOTOGRAPHIC REALISM — STRICTEST REQUIREMENT]
+- Demographics: Male, South Asian.
+- Skin Tone & Complexion: Medium warm-brown. Strictly do NOT lighten, bleach, or alter skin tone.
+- Face Shape & Structure: Broad, with a full beard obscuring chin and jawline, giving a somewhat rounded appearance.
+- Eyes & Eyebrows: Dark eyes, obscured by glasses; thick, dark, natural eyebrows with a slight arch.
+- Eyeglasses: Dark, full-rimmed, rectangular-oval frames.
+- Hairstyle & Drape: Dark brown hair, medium length on top with volume, swept slightly to the right; sides are shorter. Hair does not drape over shoulders or chest..
+- Body Build & Midsection (as photographed): Average to slightly stocky build; Mostly flat stomach with a natural, comfortable profile. Preserve exactly — do not slim or flatten.
+- Photographic Realism Directives: Explicit guidance for authentic photographic skin texture (visible pores, micro-texture, real lighting gradients) and strictly forbidding synthetic, AI-airbrushed, or plastic doll looks.
+- ABSOLUTELY AVOID AI-GENERATED LOOK: Do NOT generate an airbrushed, plastic, doll-like, or synthetic CGI face. Render authentic human skin texture with subtle micro-texture and real indoor studio lighting. The face must look 100% like the exact real person in Image 1.
+
+[GARMENT — Men's Classic Casual Button-Down Shirt (shirt)]
+- Fabric: Crisp woven cotton shirt fabric with clean collar and button placket
+- Structure: semi-structured
+- Sleeves: Natural buttoned shirt sleeve drape ending cleanly at the wrists.
+- Try-on guidelines: Fit cleanly across torso and shoulders with natural drape.
+
+[VISITOR BODY SHAPE — MEASURED FROM IMAGE 1, PRESERVE EXACTLY]
+- This visitor has a fuller build with a visible stomach and a wide waist.
+- Render exactly this body shape and volume under the garment. Do NOT slim, flatten, or idealize it, and do NOT add volume that is not there.
+- Image 1 is the ground truth: if anything here disagrees with Image 1, follow Image 1.
+
+[SIZE FIT — SIZE XS: WON'T FIT — TOO SMALL FOR THIS BODY (the visitor's size is XL)]
+Show honestly what happens when this visitor puts on a garment that is too small for them. It must look like a real photograph of a real garment that is too small, not an effect.
+- The garment cannot close: on a buttoned or zipped front only the top is fastened; the lower fastenings are open because the two edges no longer reach each other, leaving a clear gap over the widest part of the torso. The gap shows the visitor's own clothing from Image 1 or a plain inner layer, never bare skin. On a pull-over garment the fabric is stretched to its limit and rides up to the top of the waistband.
+- The fabric is stretched thin and pulled into hard horizontal ridges; every seam is visibly straining.
+- Shoulder seams sit well inside the shoulder points and the back is pulled tight across the shoulder blades; the sleeves are tight bands around the upper arms, pulled up so a long sleeve ends several centimetres above the wrist, and the armholes visibly restrict the arms (the arms stay in the pose of Image 1).
+- The hem rides well above its designed length.
+- Physically plausible only: the garment is worn ON the body and touches it everywhere it is stretched. No floating fabric, no fabric passing through the body, no torn or missing panels, and the body is NOT squeezed smaller: the garment strains around the body's real size.
+- Garment-to-body offset: -25mm to -10mm (negative = the garment is smaller than the body).
+- FABRIC BEHAVIOUR (Crisp woven cotton shirt fabric with clean collar and button placket): Woven fabric has little stretch: tension shows as sharp horizontal pull lines between the buttons and diagonal drag lines toward the widest point, with the fabric smooth and taut where it is stretched.
+- BODY-DEPENDENT DRAPE: The stomach is where it fails: the fronts cannot close over the belly and the lower fastenings stand open with a clear gap at the stomach; above it the fabric is pulled into hard ridges and the front hem rides far up.
+- WHERE THE STRAIN SHOWS: this visitor's body is widest at the stomach and the chest and upper arms; the tension, pull lines and any gaping concentrate there.
+- This size fit overrides any fit wording in the garment notes above; the garment's design stays exactly the same.
+- 100% FROZEN PHYSICAL BODY: the body, stomach, proportions and pose are exactly as in Image 1 at every size; only the garment's fit and fabric behaviour change.
